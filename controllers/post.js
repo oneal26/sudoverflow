@@ -80,7 +80,7 @@ exports.getPosts = async function(req, res, next){
     
         console.log(req.body)
     
-        var UPost = {
+        var post = {
             id,
             userName: req.body.userName ? req.body.userName : null,
             title: req.body.title ? req.body.title : null,
